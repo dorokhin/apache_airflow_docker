@@ -1,5 +1,11 @@
 # Apache airflow quick start in docker
 
+### Clone project
+```bash
+git clone git@github.com:dorokhin/apache_airflow_docker.git
+cd apache_airflow_docker
+```
+
 ### Setting the right Airflow user
 ```bash
 echo -e "AIRFLOW_UID=$(id -u)" > .env
